@@ -7,6 +7,7 @@ def add_numbers(a: int, b: int) -> int:
 
 result =add_numbers(10, 20)
 print("The sum of the two numbers is:", result)
+print("UPDATED")
 
 
 ###########################
