@@ -43,3 +43,63 @@ numbers.remove(30)
 print(numbers)
 
 ##############
+
+marks = [22, 33, 43, 55]
+print("******** Inbuilt functions *************")
+print(sum(marks), min(marks), max(marks))
+
+##############
+
+marks = [22, 32, 43, 55, 55, 66, 32]
+print("******** To find how many time its repeated *************")
+print(marks.count(32))
+print(marks.count(21))
+print(marks.count(0))
+
+##############
+
+marks = ["Hi", "Hello", "Hi"]
+print("******** To find how many time its repeated *************")
+print(marks.count("Hi"))
+print(marks.count("Hello"))
+
+##############
+
+marks = [123, 34, 65, 45, 1887, 100]
+print("******** For sorting elements, only for that particular Instance *************")
+print(sorted(marks))  ## only at this line it will sort next line if u try to print entire array it wont be sorted
+print(marks)
+##only for numbers , can use for strings-- sorted
+#######
+
+
+##########
+
+marks = [123, 34, 65, 45, 1887, 100]
+print("******** For sorting elements reversly means big to small *************")
+print()
+marks.sort(reverse=True)
+print(marks)
+##########
+
+marks = ["g", "x", "c"]
+print("******** For sorting elements reversly means big to small *************")
+print()
+marks.sort()
+print(marks)
+marks.sort(reverse=True)
+print(marks)
+##########
+
+marks = ["ghrer", "abfrs", "daaa"]
+print("******** For sorting elements reversly means big to small *************")
+print()
+marks.sort()
+print(marks)
+marks.sort(reverse=True)
+print(marks)
+print("#######################")
+marks.reverse()
+print(marks)
+
+
