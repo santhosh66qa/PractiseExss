@@ -48,6 +48,11 @@ marks = [22, 33, 43, 55]
 print("******** Inbuilt functions *************")
 print(sum(marks), min(marks), max(marks))
 
+route = ("bengaluru", "Mysuru")
+
+
+
+
 ##############
 
 marks = [22, 32, 43, 55, 55, 66, 32]
